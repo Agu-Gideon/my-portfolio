@@ -623,7 +623,7 @@ input[type='checkbox'] {
 	height: 430px;
 	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/WhatsApp\ Image\ 2024-09-09\ at\ 3.21.19\ AM.jpeg') top center no-repeat;
 	background-size: cover;
-	background-position: ;
+	/* background-position: ; */
 }
 
 .split .area-2 {
@@ -1304,4 +1304,8 @@ a:hover.back-to-top {
 	font-size: 19px;
 	color: white;
 
+}
+.lastdiv{
+	display: flex;
+	/* flex-direction: column; */
 }

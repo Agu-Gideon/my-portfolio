@@ -76,3 +76,12 @@
 	});
 
 })(jQuery);
+
+
+
+window.onload = function() {
+    // Clear the form fields when the page is loaded
+    document.getElementById('contactForm').reset();
+};
+
+

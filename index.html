@@ -36,11 +36,12 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             
-            <!-- Image Logo -->
-            <div class="gidlogo">
-                <div class="g">G</div>
-                Gideon
-            </div> 
+              <!-- Image Logo -->
+           <a href="index.html"><div class="gidlogo">
+            <div class="g">G</div>
+            Gideon
+        </div> 
+    </a> 
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
@@ -64,7 +65,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
+                            <!-- <a class="dropdown-item page-scroll" href="project.html">Project Details</a> -->
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
                             <div class="dropdown-divider"></div>
@@ -77,13 +78,13 @@
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://web.facebook.com/profile.php?id=61557244013852">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-facebook-f fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://x.com/Agugideon409">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-twitter fa-stack-1x"></i>
                         </a>
@@ -151,7 +152,7 @@
     <!-- Services -->
     <div id="services" class="basic-2">
         <div class="container">
-            <div class="row">
+            <div class="row first">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Offered services</h2>
                     <p class="p-heading">Web design and development have been my core expertise, and through that, I've found I can support startups and companies with the following services.</p>
@@ -162,21 +163,21 @@
                     <div class="text-box">
                         <i class="far fa-gem"></i>
                         <h4>DESIGN</h4>
-                        <p>Successful online projects start with good design. It establishes a solid foundation for future development and allows for long term growth</p>
+                        <p class="offererd">Successful online projects begin with a strong and thoughtful design, laying the essential groundwork for smooth future development and enabling  long-term growth.</p>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-box">
                         <i class="fas fa-code"></i>
                         <h4>DEVELOPMENT</h4>
-                        <p>I can code my own designs or even use the customer's design as base. My focus is to generate clean code that's well structured for reliability</p>
+                        <p class="offererd">I can develop based on my own designs or use the customer's as a foundation, with a focus on writing clean, reliable, and well-structured code.</p>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-box">
                         <i class="fas fa-tv"></i>
                         <h4>BASIC SEO</h4>
-                        <p>i can setup your project to use basic SEO principles which will push your project to the first page on search engines and save you ads money</p>
+                        <p class="offererd">I can set up your project with essential SEO principles to boost its ranking on search engines, helping you reach the first page and save on ad costs.</p>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -196,12 +197,13 @@
                         <!-- Text Container -->
                         <div class="text-container">
                             <h2>Why Work With Me</h2>
-                            <p>I am a great communicator and love to invest the necessary time to understand the customer's problem very well</p>
+                            <p>I excel at communication and dedicate the time needed to fully understand the customer's problem.</p>
                             <h5>DESIGN TOOLS</h5>
-                            <p>My favorite design tools are Photoshop and Illustrator but I can create designs in Figma, Sketch and Adobe XD too</p>
+                            <p>My preferred design tools are Photoshop and Illustrator, though I am capable of creating designs using other software as well.</p>
                             <h5>DEVELOPMENT SKILLS</h5>
-                            <p>I am familiar and work on a daily basis with HTML, CSS, JavaScript, Bootstrap and other modern frameworks</p>
-                            
+                            <p>I have a strong working knowledge of HTML, CSS, JavaScript, Bootstrap, and other contemporary frameworks, which I use regularly in my day-to-day tasks.</p>
+                            <h5>VERSION CONTROL SKILLS</h5>
+                            <p>I have extensive experience using Git for version control and GitHub for collaboration and project management. On a daily basis, I utilize Git to track changes, manage branches, and resolve conflicts efficiently. </p>
                             <div class="icons-container">
                                 <img src="images/details-icon-photoshop.png" alt="alternative">
                                 <img src="images/details-icon-illustrator.png" alt="alternative">
@@ -209,6 +211,7 @@
                                 <img src="images/details-icon-css.png" alt="alternative">
                                 <img src="images/details-icon-bootstrap.png" alt="alternative">
                                 <img src="images/details-icon-javascript.png" alt="alternative">
+                                <img src="./images/Git Logo Sticker by mhensley.jpeg" alt="alternative">
                             </div> <!-- end of icons-container -->
                         </div> <!-- end of text-container -->
                         <!-- end of text container -->
@@ -357,17 +360,18 @@
                 <div class="col-lg-12">
                     
                     <!-- Contact Form -->
-                    <form id="contactForm">
+                    <form  action="https://formspree.io/f/xqazrdgp" method="POST" id="contactForm">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="cname" required  name="name" >
+
                             <label class="label-control" for="cname">Name</label>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
+                            <input type="email" class="form-control-input" id="cemail" required name="email">
                             <label class="label-control" for="cemail">Email</label>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <textarea class="form-control-textarea" id="cmessage" required name="messages"></textarea>
                             <label class="label-control" for="cmessage">Project details</label>
                         </div>
                         <div class="form-group">
@@ -390,31 +394,31 @@
                 <div class="col-lg-12">
                     <div class="social-container">
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://web.facebook.com/profile.php?id=61557244013852">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://x.com/Agugideon409">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.pinterest.com/agugideon409/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-pinterest-p fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/agugideon39/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.youtube.com/@Yourtechbroda">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-youtube fa-stack-1x"></i>
                             </a>
